@@ -2,19 +2,21 @@ import flopy
 import numpy as np
 import matplotlib.pyplot as plt
 
+# Convert Units to feet per year
 rech = np.loadtxt('prsim_201305.txt') # mm # 100
 rech = rech / 100 # mm
 rech = .00328084 * rech # feet/month
-rech = rech * 12 #feet/year
+rech = rech * 12 #feet/year = inch/month
 print('loaded text')
 
-fig, ax = plt.subplots()
+# Begin Plotting (matplotlib)
+fig, ax = plt.subplots() # initiate plot
 
-plt.imshow(rech,cmap='jet')
-plt.colorbar()
-plt.title('recharge in inch/month')
+plt.imshow(rech,cmap='jet') # colormap with color scheme specified
+plt.colorbar() # create colorbar
+plt.title('Aquifer Recharge (inches/month)')
 
-nrow, ncol = rech.shape # 1124 1412
+nrow, ncol = rech.shape # 1124=rows, 1412=columns
 
 mf = flopy.modflow.Modflow('trinity_rech')
 
