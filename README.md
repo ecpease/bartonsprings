@@ -30,9 +30,10 @@ To update above packages type:
 
 	python
 	import matplotlib.pyplot as plt
-  import numpy as np
-  import gdal
-  import geopandas
+  	import numpy as np
+  	import gdal
+  	import geopandas as gpd
+	import flopy
 
 ## Recharge File
 
