@@ -35,4 +35,16 @@ To install the above packages, see their given documentations.
 2. Convert NumPy array units to ft/year
 3. Give number of years and the time per period
 4. Create colormap of NumPy array
+
+## Introduction to Using Git and GitHub
+
+### When you want to push a commit to the TrinityGAM repository:
+*****Helpful resource: https://gist.github.com/spences10/5c492e197e95158809a83650ff97fc3a*****
+
+1. Fork the TrinityGAM (you'll see your username now / TrinityGAM)
+2. Clone the repo to your desired location (I make a GitHub folder and put everything in that)
+ex) git clone [the copied 'clone' URL]
+3. type into command prompt: git remote add upstream [the copied 'clone' URL]
+4. 
+
 	
