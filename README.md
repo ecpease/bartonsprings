@@ -43,8 +43,8 @@ To install the above packages, see their given documentations.
 
 1. Fork the TrinityGAM (you'll see your username now / TrinityGAM)
 2. Clone the repo to your desired location (I make a GitHub folder and put everything in that)
-ex) git clone [the copied 'clone' URL]
-3. type into command prompt: git remote add upstream [the copied 'clone' URL]
-4. 
+2a. ex) git clone [the copied 'clone' URL]
+3. Type into command prompt: git remote add upstream [the copied 'clone' URL]
+4. Google what's next sorry
 
 	
