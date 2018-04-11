@@ -2,39 +2,39 @@
 
 ## Introduction
 
-Here's the intro here it is yay
+Here's the intro ...
 
 ## Package Installation
 
 ** Python versions:**
 
-This model requires **Python** 3.6.
+ **Python** 3.6. is required.
 
 **Dependencies:**
 
-Running this GAM model requires **Numpy** 1.12 (or higher), **matplotlib** 2.0 (or higher), **gdal**, **geopandas**, and **FloPy**.
+Running this GAM model requires **Numpy** 1.12 (or higher), **matplotlib** 2.0 (or higher), **os**, **gdal**, **geopandas**, and **FloPy**.
 
 **For base Python distributions:**
 
-To install the above packages, open a command prompt and type:
-
-	pip install [package]
-
-To update above packages type:
-
-	pip install [package] —upgrade
-
-
-
-**Testing installation:**
-
-	python
-	import matplotlib.pyplot as plt
-  	import numpy as np
-  	import gdal
-  	import geopandas as gpd
-	import flopy
+To install the above packages, see their given documentations.
 
 ## Recharge File
 
-Here's info on creation of recharge file
+How the recharge file was created.
+
+Here, we assume that the precipitation is recharge.
+
+### Part A. Convert the raster to a NumPy array, then resize it to match model array.  Create .txt file 
+
+1. import all packages required (see above dependencies).
+2. input the GAM shapefile from the Texas Water Development Board.
+3. Determine number of rows, columns, and layers
+4. Array output is .txt file that has the same number of rows and columns as our model.
+
+### Part B. Conversions, Data Visualization
+
+1. Load .txt file created in Part A.
+2. Convert NumPy array units to ft/year
+3. Give number of years and the time per period
+4. Create colormap of NumPy array
+	
