@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Convert Units to feet per year
-rech = np.loadtxt('prsim_201305.txt') # mm # 100
+rech = np.loadtxt('prism_201305.txt') # mm # 100
 rech = rech / 100 # mm
 rech = .00328084 * rech # feet/month
 rech = rech * 12 #feet/year = inch/month
