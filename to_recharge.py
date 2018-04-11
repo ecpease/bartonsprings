@@ -3,7 +3,10 @@ import os
 import numpy as np
 from osgeo import gdal
 
-df = gpd.read_file(os.path.join('trnt_n_grid_poly082615.shp')) # read in shapefile
+# read in shapefile from Texas Water Development Board
+# https://www.twdb.texas.gov/groundwater/models/gam/glfc_n/glfc_n.asp
+# Shapefile is available on GitHub TrinityGAM repository in GIS folder
+df = gpd.read_file(os.path.join('GIS','trnt_n_grid_poly082615.shp')) 
 print(df.head())
 print('loaded shapefile')
 
@@ -14,7 +17,6 @@ delr, delc = 5280, 5280 # mile x mile in feet
 
 
 nlay = 8 # 8 layers in model, but not important
-
 
 
 def get_raster_value(xcoords,ycoords,nrow,ncol,mfrows,mfcols,raster_path,name='name'):
@@ -28,6 +30,11 @@ def get_raster_value(xcoords,ycoords,nrow,ncol,mfrows,mfcols,raster_path,name='n
     :param raster_path:
     :param name:
     :return:
+
+    Written by Ross Kushnereit
+    INTERA, Inc.
+
+    This function converts a raster to a NumPy array.  Then resizes it to match the model array.
     """
     # print('getting data for '+ name)
     driver = gdal.GetDriverByName('GTiff')
@@ -75,10 +82,12 @@ def get_raster_value(xcoords,ycoords,nrow,ncol,mfrows,mfcols,raster_path,name='n
     # plt.show()
     return array
 
+# array is created in the above function
+# .tif comes from PRISM.  We clipped it to make the script run faster
+array = get_raster_value(df['CentroidX'],df['CentroidY'],nrow,ncol,df['ROW'],df['COL'],raster_path=os.path.join('GIS','rech_201305_clipped_GAM.tif'),name='prism')
 
-array = get_raster_value(df['CentroidX'],df['CentroidY'],nrow,ncol,df['ROW'],df['COL'],raster_path=os.path.join('rech_201305_clipped_GAM.tif'),name='prism')
-
-np.savetxt('prsim_201305.txt',array)
+# saves arrray as a .txt file
+np.savetxt('prism_201305.txt',array)
 
 
 
