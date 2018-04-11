@@ -20,9 +20,7 @@ To install the above packages, see their given documentations.
 
 ## Recharge File
 
-How the recharge file was created.
-
-Here, we assume that the precipitation is recharge.
+***Here, we assume that the precipitation is recharge.***
 
 ### Part A. Convert the raster to a NumPy array, then resize it to match model array.  Create .txt file 
 
