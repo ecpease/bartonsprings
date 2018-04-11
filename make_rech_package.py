@@ -18,7 +18,7 @@ plt.title('Aquifer Recharge (inches/month)')
 
 nrow, ncol = rech.shape # 1124=rows, 1412=columns
 
-mf = flopy.modflow.Modflow('trinity_rech')
+mf = flopy.modflow.Modflow('trinity_rech') # this is the main flopy.modflow model object; https://modflowpy.github.io/flopydoc/mf.html 
 
 nper = 82 # years 
 perlen = [365.25] # time in each stress period
@@ -29,10 +29,12 @@ for sp in range(1,nper):
 nstp = 1 # number of time steps in each stress period
 delr, delc = 5280, 5280 
 lenuni = 1 # is feet
-top, botm = 100, 0
-dis = flopy.modflow.ModflowDis(mf,1,nrow,ncol,nper,delr,delc,0,top,botm,perlen,nstp,steady=steady,itmuni=4,lenuni=lenuni)
-rch = flopy.modflow.ModflowRch(mf,rech=rech)
-mf.write_input()
+top, botm = 100, 0 # top elevation of the model is 100, botm elevation is 0
+dis = flopy.modflow.ModflowDis(mf,1,nrow,ncol,nper,delr,delc,0,top,botm,perlen,nstp,steady=steady,itmuni=4,lenuni=lenuni) # discritization object; https://modflowpy.github.io/flopydoc/mfdis.html
+
+rch = flopy.modflow.ModflowRch(mf,rech=rech) # is the recharge pckage https://modflowpy.github.io/flopydoc/mfrch.html
+
+mf.write_input() # write the modflow files
 
 plt.show()
 
