@@ -1,12 +1,14 @@
-import geopandas as gpd
+# import geopandas as gpd
 import os
 import numpy as np
 from osgeo import gdal
+import pandas as pd
 
 # read in shapefile from Texas Water Development Board
 # https://www.twdb.texas.gov/groundwater/models/gam/glfc_n/glfc_n.asp
 # Shapefile is available on GitHub TrinityGAM repository in GIS folder
-df = gpd.read_file(os.path.join('GIS','trnt_n_grid_poly082615.shp')) 
+# df = gpd.read_file(os.path.join('GIS','trnt_n_grid_poly082615.shp')) 
+df = pd.read_csv(os.path.join('GIS','trnt_n_grid.csv')) # converted the shapefile to a csv that is much smaller and easier to load with pandas instead of geopandas.
 print(df.head())
 print('loaded shapefile')
 
