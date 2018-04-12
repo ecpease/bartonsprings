@@ -3,10 +3,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Convert Units to feet per year
-rech = np.loadtxt('prism_201305.txt') # mm # 100
+rech = np.loadtxt('prism_201305.txt') # mm * 100
 rech = rech / 100 # mm
 rech = .00328084 * rech # feet/month
-rech = rech * 12 #feet/year = inch/month
+rech = rech * 12 #feet/year = inch/month, still need to convert to feet per day for MODFLOW model
 print('loaded text')
 
 # Begin Plotting (matplotlib)
@@ -31,6 +31,8 @@ delr, delc = 5280, 5280
 lenuni = 1 # is feet
 top, botm = 100, 0 # top elevation of the model is 100, botm elevation is 0
 dis = flopy.modflow.ModflowDis(mf,1,nrow,ncol,nper,delr,delc,0,top,botm,perlen,nstp,steady=steady,itmuni=4,lenuni=lenuni) # discritization object; https://modflowpy.github.io/flopydoc/mfdis.html
+
+rech = rech / 12 / 30.4 
 
 rch = flopy.modflow.ModflowRch(mf,rech=rech) # is the recharge pckage https://modflowpy.github.io/flopydoc/mfrch.html
 

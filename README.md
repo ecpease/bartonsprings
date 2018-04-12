@@ -14,7 +14,6 @@ Here's the intro ...
 
 Running this GAM model requires **Numpy** 1.12 (or higher), **matplotlib** 2.0 (or higher), **os**, **gdal**, **geopandas**, and **FloPy**.
 
-**For base Python distributions:**
 
 To install the above packages, see their given documentations.
 
@@ -46,5 +45,10 @@ To install the above packages, see their given documentations.
 2a. ex) git clone [the copied 'clone' URL]
 3. Type into command prompt: git remote add upstream [the copied 'clone' URL]
 4. Google what's next sorry
+
+### When you add to a repository that you're a master for:
+
+1. Put all files you want in a folder that will have the same name as the GitHub 
+2. 
 
 	
