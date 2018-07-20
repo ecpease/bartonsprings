@@ -1,0 +1,260 @@
+<?xml version="1.0"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Texas Water Development Board</origin>
+				<title>Edwards Balcones Fault Zone (Barton Springs) Grid</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<ftname Sync="TRUE">ebfz_b_grid_poly080310</ftname><onlink Sync="TRUE"></onlink></citeinfo>
+		</citation>
+		<descript>
+			<abstract>This is the polygon grid for the Edwards Balcones Fault Zone (Barton Springs) model grid. It contains centroid coordinates that can easily be plotted as a point layer.</abstract>
+			<purpose>This grid is necessary for assigning pumpage during GAM modeling.</purpose>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>Complete.</progress>
+			<update>As needed.</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-98.049906</westbc>
+				<eastbc Sync="TRUE">-97.638701</eastbc>
+				<northbc Sync="TRUE">30.319900</northbc>
+				<southbc Sync="TRUE">29.963878</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">5537565.760495</leftbc><rightbc Sync="TRUE">5664844.726550</rightbc><bottombc Sync="TRUE">19224159.571683</bottombc><topbc Sync="TRUE">19351438.537738</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekey>ebfz</themekey>
+				<themekey>Barton Springs</themekey>
+				<themekey>centroid</themekey>
+				<themekey>grid</themekey>
+				<themekt>REQUIRED: Reference to a formally registered thesaurus or a similar authoritative source of theme keywords.</themekt><themekey>Edwards</themekey></theme>
+			<place>
+				<placekey>ebfz_b</placekey>
+			</place>
+		</keywords>
+		<accconst>There no known data access constraints.</accconst>
+		<useconst>There are no known use constraints.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>Marius Jigmond</cntper>
+					<cntorg>Texas Water Development Board</cntorg>
+				</cntperp>
+				<cntpos>GIS Specialist</cntpos>
+				<cntvoice>(512) 463-8499</cntvoice>
+				<cntemail>marius.jigmond@twdb.state.tx.us</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.4000</native>
+		<natvform Sync="TRUE">Shapefile</natvform></idinfo>
+	<dataqual>
+		<lineage>
+			<procstep>
+				<procdesc>This grid was derived from the original polygon grids by calculating the centroids, and then performing spatial joins with various polygon layers to obtain the polygons' attributes.</procdesc>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Dataset moved.</procdesc><srcused Sync="TRUE">M:\Users\mjigmond\CompletedGrids\ebfz_b_grid_poly</srcused><date Sync="TRUE">20080428</date><time Sync="TRUE">13320200</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE"></srcused><date Sync="TRUE">20090915</date><time Sync="TRUE">08400700</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE"></srcused><procdate Sync="TRUE">20110602</procdate><proctime Sync="TRUE">09574400</proctime></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE"></srcused><procdate Sync="TRUE">20111012</procdate><proctime Sync="TRUE">15444400</proctime></procstep></lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf><esriterm Name="ebfz_b_grid_poly011413"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom code="4" Sync="TRUE"></efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">14400</efeacnt><spindex Sync="TRUE">TRUE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf></spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<coordrep>
+						<absres Sync="TRUE">0.000000</absres>
+						<ordres Sync="TRUE">0.000000</ordres>
+					</coordrep>
+					<plandu Sync="TRUE">survey feet</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">GAM</projcsn></cordsysn></horizsys>
+	</spref>
+	<eainfo>
+		<detailed Name="ebfz_b_grid_poly011413">
+			<enttyp>
+				<enttypl Sync="TRUE">ebfz_b_grid_poly011413</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">14400</enttypc></enttyp>
+			<attr>
+				<attrlabl>FID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>ROW</attrlabl>
+				<attrdef>Row number for each cell/centroid.</attrdef>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">4</attwidth><attalias Sync="TRUE">ROW</attalias><atprecis Sync="TRUE">4</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>COL</attrlabl>
+				<attrdef>Column number for each cell/centroid.</attrdef>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">4</attwidth><attalias Sync="TRUE">COL</attalias><atprecis Sync="TRUE">4</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>CELL_ID</attrlabl>
+				<attrdef>Cell/centroid id derived from row and column using this formula: 1000000+1000*Row+Col</attrdef>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">7</attwidth><attalias Sync="TRUE">CELL_ID</attalias><atprecis Sync="TRUE">7</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>CountyName</attrlabl>
+				<attrdef>County name.</attrdef>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth><attalias Sync="TRUE">CountyName</attalias><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>CountyNum</attrlabl>
+				<attrdef>County number (1-254).</attrdef>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">4</attwidth><attalias Sync="TRUE">CountyNum</attalias><atprecis Sync="TRUE">4</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>GCD_Name</attrlabl>
+				<attrdef>Confirmed Groundwater Conservation District name.</attrdef>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">100</attwidth><attalias Sync="TRUE">GCD_Name</attalias><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">GCD_Name_1</attrlabl>
+				<attalias Sync="TRUE">GCD_Name_1</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">100</attwidth>
+				<attrdef>Confirmed GCD name #1 for overlapping gcd's.</attrdef><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr><attrlabl Sync="TRUE">GCD_Num_1</attrlabl>
+				<attalias Sync="TRUE">GCD_Num_1</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">9</attwidth>
+				<attrdef>The corresponding number for GCD_Name_1.</attrdef><atprecis Sync="TRUE">9</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">GCD_Name_2</attrlabl>
+				<attalias Sync="TRUE">GCD_Name_2</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">150</attwidth>
+				<attrdef>Confirmed GCD name #2 for overlapping gcd's.</attrdef><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>GCD_Num</attrlabl>
+				<attrdef>Confirmed Groundwater Conservation District number.</attrdef>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">9</attwidth><attalias Sync="TRUE">GCD_Num</attalias><atprecis Sync="TRUE">9</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>BasinName</attrlabl>
+				<attrdef>Basin name.</attrdef>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth><attalias Sync="TRUE">BasinName</attalias><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">GCD_Num_2</attrlabl>
+				<attalias Sync="TRUE">GCD_Num_2</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype><attwidth Sync="TRUE">4</attwidth>
+				<attrdef>The corresponding number for GCD_Name_2.</attrdef><atprecis Sync="TRUE">4</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>BasinNum</attrlabl>
+				<attrdef>Basin number.</attrdef>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">4</attwidth><attalias Sync="TRUE">BasinNum</attalias><atprecis Sync="TRUE">4</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>CentroidX</attrlabl>
+				<attrdef>X coordinates for polygon centroids.</attrdef>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<attalias Sync="TRUE">CentroidX</attalias><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>CentroidY</attrlabl>
+				<attrdef>Y coordinates for polygon centroids.</attrdef>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<attalias Sync="TRUE">CentroidY</attalias><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>uGCD</attrlabl>
+				<attrdef>Unconfirmed Groundwater Conservation District.</attrdef>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">69</attwidth><attalias Sync="TRUE">uGCD</attalias><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>GMA</attrlabl>
+				<attrdef>Groundwater Management Area number.</attrdef>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">4</attwidth><attalias Sync="TRUE">GMA</attalias><atprecis Sync="TRUE">4</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>PGMA</attrlabl>
+				<attrdef>Priority Groundwater Management Area.</attrdef>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">40</attwidth><attalias Sync="TRUE">PGMA</attalias><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>RA_SLD</attrlabl>
+				<attrdef>River Authorities &amp; Special Law Districts names.</attrdef>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">100</attwidth><attalias Sync="TRUE">RA_SLD</attalias><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>REG_NAME</attrlabl>
+				<attrdef>Region name.</attrdef>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">20</attwidth><attalias Sync="TRUE">REG_NAME</attalias><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>LETTER</attrlabl>
+				<attrdef>Region letter code.</attrdef>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">1</attwidth><attalias Sync="TRUE">LETTER</attalias><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">REG_NUM</attrlabl>
+				<attalias Sync="TRUE">REG_NUM</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<attrdef>Region number (alphabetically assigned 1-16).</attrdef><atprecis Sync="TRUE">4</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr><attrlabl Sync="TRUE">IBND1</attrlabl><attalias Sync="TRUE">IBND1</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">7</attwidth><attrdef>Ibounds layer.</attrdef><atprecis Sync="TRUE">7</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">AQ_Active1</attrlabl><attalias Sync="TRUE">AQ_Active1</attalias><attrtype Sync="TRUE">SmallInteger</attrtype><attwidth Sync="TRUE">4</attwidth><attrdef>1 = Active cells that fall within the aquifer footprint
+2 = Active cells that fall outside the aquifer footprint
+0 = Inactive cells</attrdef><atprecis Sync="TRUE">4</atprecis><attscale Sync="TRUE">0</attscale></attr></detailed>
+	</eainfo>
+	<distinfo>
+		<resdesc>Downloadable Data</resdesc>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize>1.271</transize>
+					<dssize Sync="TRUE">1.868</dssize></digtinfo>
+			</digform>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20100825</metd>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntper>Marius Jigmond</cntper>
+					<cntorg>Texas Water Development Board</cntorg>
+				</cntperp>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<city>Austin</city>
+					<state>TX</state>
+					<postal>78711-3231</postal>
+					<address>PO Box 13231</address></cntaddr>
+				<cntvoice>(512) 463-8499</cntvoice>
+				<cntemail>marius.jigmond@twdb.state.tx.us</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<langmeta Sync="TRUE">en</langmeta></metainfo>
+	<Esri><ModDate>20130723</ModDate><ModTime>15424700</ModTime><SyncDate>20130723</SyncDate><SyncTime>15424700</SyncTime><CreaDate>20150826</CreaDate><CreaTime>10102900</CreaTime><SyncOnce>FALSE</SyncOnce><DataProperties><lineage><Process Name="RepairGeometry_3" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RepairGeometry" Date="20080618" Time="095706">RepairGeometry N:\GAM_data\GAM_grids\UpdatedGrids\ebfz_b\ebfz_b_grid_poly050108.shp N:\GAM_data\GAM_grids\UpdatedGrids\ebfz_b\ebfz_b_grid_poly050108.shp</Process><Process Name="Remove Join" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20100804" Time="121420">RemoveJoin ebfz_b_grid_poly091509_Layer centroid_SpatialJoin ebfz_b_grid_poly091509_Layer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\MetadataImporter" Date="20100804" Time="122020">MetadataImporter ebfz_b_grid_poly091509 ebfz_b_grid_poly080310 ebfz_b_grid_poly080310</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="083459">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="083519">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="083544">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="083559">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="084519">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="084539">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="084602">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="084617">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="090434">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="090452">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="090516">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="090533">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="093607">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="093626">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="093650">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="093704">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="093949">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="094008">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="094030">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="094044">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="094541">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="094558">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="094622">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="094635">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="100056">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="100114">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="100137">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="100153">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="101329">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="101346">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="101411">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="101424">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="101914">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="101931">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="101955">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="102011">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="102451">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="102509">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="102532">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="102546">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="103506">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="103525">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="103548">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="103604">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="104618">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="104637">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="104701">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="104717">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="105156">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="105213">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="105238">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="105252">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="105847">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="105905">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="105929">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="105942">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="110139">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="110158">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="110220">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="110235">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="112314">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="133419">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="144722">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="144942">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110203" Time="145124">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110207" Time="070755">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110207" Time="073125">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110207" Time="073453">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110207" Time="074801">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110207" Time="075502">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110207" Time="080231">RemoveJoin gridLayer tempo1 gridLayer</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110207" Time="080602">RemoveJoin gridLayer tempo1 gridLayer</Process><Process Name="Remove Join" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110602" Time="093050">RemoveJoin ebfz_b_grid_poly080310_Layer ebfz_b_grid_poly080310_Featu1 ebfz_b_grid_poly080310_Layer</Process><Process Name="Remove Join" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110602" Time="093302">RemoveJoin ebfz_b_grid_poly080310_Layer1 ebfz_b_grid_poly080310_Featu3 ebfz_b_grid_poly080310_Layer1</Process><Process Name="Remove Join" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110602" Time="093954">RemoveJoin ebfz_b_grid_poly080310_Layer ebfz_b_grid_poly080310_Featu5 ebfz_b_grid_poly080310_Layer</Process><Process Name="Remove Join" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110602" Time="094451">RemoveJoin ebfz_b_grid_poly080310_Layer ebfz_b_grid_poly080310_Featu7 ebfz_b_grid_poly080310_Layer</Process><Process Name="Remove Join" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110602" Time="094613">RemoveJoin ebfz_b_grid_poly080310_Layer ebfz_b_grid_poly080310_Featu9 ebfz_b_grid_poly080310_Layer</Process><Process Name="Remove Join" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110602" Time="094742">RemoveJoin ebfz_b_grid_poly080310_Layer ebfz_b_grid_poly080310_Featu11 ebfz_b_grid_poly080310_Layer</Process><Process Name="Remove Join" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110602" Time="095047">RemoveJoin ebfz_b_grid_poly080310_Layer ebfz_b_grid_poly080310_Featu13 ebfz_b_grid_poly080310_Layer</Process><Process Name="Remove Join" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110602" Time="095158">RemoveJoin ebfz_b_grid_poly080310_Layer ebfz_b_grid_poly080310_Featu15 ebfz_b_grid_poly080310_Layer</Process><Process Name="Remove Join" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20110602" Time="095652">RemoveJoin ebfz_b_grid_poly080310_Layer ebfz_b_grid_poly080310_Featu17 ebfz_b_grid_poly080310_Layer</Process><Process Name="Remove Join" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20111012" Time="135202">RemoveJoin ebfz_b_grid_poly060211_Layer ebfz_b_grid_poly060211_Featu1 ebfz_b_grid_poly060211_Layer</Process><Process Name="Remove Join" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20111012" Time="135304">RemoveJoin ebfz_b_grid_poly060211_Layer ebfz_b_grid_poly060211_Featu1 ebfz_b_grid_poly060211_Layer</Process><Process Name="Remove Join" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20111012" Time="135419">RemoveJoin ebfz_b_grid_poly060211_Layer ebfz_b_grid_poly060211_Featu2 ebfz_b_grid_poly060211_Layer</Process><Process Name="Remove Join" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20111012" Time="154001">RemoveJoin ebfz_b_grid_poly060211_Layer ebfz_b_grid_poly060211_Featu1 ebfz_b_grid_poly060211_Layer</Process><Process Name="Remove Join" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20111012" Time="154216">RemoveJoin ebfz_b_grid_poly060211_Layer ebfz_b_grid_poly060211_Featu3 ebfz_b_grid_poly060211_Layer</Process><Process Name="Remove Join" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20111012" Time="154312">RemoveJoin ebfz_b_grid_poly060211_Layer ebfz_b_grid_poly060211_Featu3 ebfz_b_grid_poly060211_Layer</Process><Process Name="Remove Join" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RemoveJoin" Date="20111012" Time="154411">RemoveJoin ebfz_b_grid_poly060211_Layer ebfz_b_grid_poly060211_Featu4 ebfz_b_grid_poly060211_Layer</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20120206" Time="091150">CalculateField ebfz_b_grid_poly020612 GMA 9 VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20140227" Time="144514">CalculateField "Model Grids\ebfz_b_grid_poly011413" GCD_Name "Barton Springs/Edwards Aquifer CD" VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20140227" Time="144530">CalculateField "Model Grids\ebfz_b_grid_poly011413" GCD_Num 18 VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20140227" Time="144750">CalculateField "Model Grids\ebfz_b_grid_poly011413" GCD_Name_1 "Plum Creek CD" VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20140227" Time="144802">CalculateField "Model Grids\ebfz_b_grid_poly011413" GCD_Num_1 33 VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20140227" Time="145006">CalculateField "Model Grids\ebfz_b_grid_poly011413" GCD_Name "ND Hays" VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20140227" Time="145014">CalculateField "Model Grids\ebfz_b_grid_poly011413" GCD_Num 605 VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20140227" Time="145102">CalculateField "Model Grids\ebfz_b_grid_poly011413" GCD_Name_2 "Edwards Aquifer Authority" VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20140227" Time="145118">CalculateField "Model Grids\ebfz_b_grid_poly011413" GCD_Num_2 37 VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.3\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150706" Time="131805">CalculateField grids\ebfz_b_grid_poly050114 GCD_Name "Hays Trinity GCD" VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.3\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150706" Time="131816">CalculateField grids\ebfz_b_grid_poly050114 GCD_Num 76 VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.3\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150706" Time="132029">CalculateField grids\ebfz_b_grid_poly050114 GCD_Name "Plum Creek CD" VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.3\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150706" Time="132039">CalculateField grids\ebfz_b_grid_poly050114 GCD_Num 31 VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.3\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150706" Time="132352">CalculateField grids\ebfz_b_grid_poly050114 GCD_Name_1 "" VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.3\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150706" Time="132400">CalculateField grids\ebfz_b_grid_poly050114 GCD_Num_1 0 VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.3\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150706" Time="132407">CalculateField grids\ebfz_b_grid_poly050114 GCD_Name_2 "" VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.3\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150706" Time="132413">CalculateField grids\ebfz_b_grid_poly050114 GCD_Num_2 0 VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.3\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150706" Time="132456">CalculateField grids\ebfz_b_grid_poly050114 GCD_Name_1 "Plum Creek CD" VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.3\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150706" Time="132505">CalculateField grids\ebfz_b_grid_poly050114 GCD_Num_1 31 VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.3\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150706" Time="132550">CalculateField grids\ebfz_b_grid_poly050114 GCD_Name_2 "Edwards Aquifer Authority" VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.3\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150706" Time="132558">CalculateField grids\ebfz_b_grid_poly050114 GCD_Num_2 35 VB #</Process></lineage><itemProps><itemName Sync="TRUE">ebfz_b_grid_poly011413</itemName><imsContentType Sync="TRUE">002</imsContentType><nativeExtBox><westBL Sync="TRUE">5537565.760495</westBL><eastBL Sync="TRUE">5664844.726550</eastBL><southBL Sync="TRUE">19224159.571683</southBL><northBL Sync="TRUE">19351438.537738</northBL><exTypeCode Sync="TRUE">1</exTypeCode></nativeExtBox><itemSize Sync="TRUE">1.868</itemSize><itemLocation><linkage Sync="TRUE">file://\\oberon\gam\GAM_data\GAM_grids\ebfz_b\ebfz_b_grid_poly011413.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation></itemProps><coordRef><type Sync="TRUE">Projected</type><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><csUnits Sync="TRUE">Linear Unit: Foot_US (0.304801)</csUnits><projcsn Sync="TRUE">GAM</projcsn><peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.1'&gt;&lt;WKT&gt;PROJCS[&amp;quot;GAM&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Albers&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,4921250.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,19685000.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-100.0],PARAMETER[&amp;quot;Standard_Parallel_1&amp;quot;,27.5],PARAMETER[&amp;quot;Standard_Parallel_2&amp;quot;,35.0],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,31.25],UNIT[&amp;quot;Foot_US&amp;quot;,0.3048006096012192]]&lt;/WKT&gt;&lt;XOrigin&gt;-56332700&lt;/XOrigin&gt;&lt;YOrigin&gt;-7054100&lt;/YOrigin&gt;&lt;XYScale&gt;73523415.671487227&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.0032808333333333331&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml></coordRef></DataProperties><ArcGISFormat>1.0</ArcGISFormat><ArcGISstyle>FGDC CSDGM Metadata</ArcGISstyle></Esri><mdDateSt Sync="TRUE">20130723</mdDateSt><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.1.1.3143</envirDesc><dataLang><languageCode Sync="TRUE" value="eng"></languageCode><countryCode value="USA" Sync="TRUE"></countryCode></dataLang><idCitation><resTitle Sync="TRUE">ebfz_b_grid_poly011413</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">5537565.760495</westBL><eastBL Sync="TRUE">5664844.72655</eastBL><northBL Sync="TRUE">19351438.537738</northBL><southBL Sync="TRUE">19224159.571683</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-98.049906</westBL><eastBL Sync="TRUE">-97.638701</eastBL><northBL Sync="TRUE">30.3199</northBL><southBL Sync="TRUE">29.963878</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox><dataExt><geoEle><GeoBndBox esriExtentType="search"><exTypeCode Sync="TRUE">1</exTypeCode><westBL Sync="TRUE">-98.049906</westBL><eastBL Sync="TRUE">-97.638701</eastBL><northBL Sync="TRUE">30.319900</northBL><southBL Sync="TRUE">29.963878</southBL></GeoBndBox></geoEle></dataExt></dataIdInfo><mdLang><languageCode Sync="TRUE" value="eng"></languageCode><countryCode value="USA" Sync="TRUE"></countryCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">1.868</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor><distFormat><formatName Sync="TRUE">Shapefile</formatName></distFormat><distTranOps><transSize Sync="TRUE">1.868</transSize></distTranOps></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE" code="0">GAM</identCode></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><geometObjs Name="ebfz_b_grid_poly011413"><geoObjTyp><GeoObjTypCd value="002" Sync="TRUE"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">14400</geoObjCnt></geometObjs><topLvl><TopoLevCd value="001" Sync="TRUE"></TopoLevCd></topLvl></VectSpatRep></spatRepInfo></metadata>
