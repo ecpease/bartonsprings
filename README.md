@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Here's the intro ...
+The Trinity Groundwater Availability Model is a Texas Water Development Board tool used for assessing the Trinity Aquifer water supply into the future.  Here, as a UT class project in Intelligent Systems for Geosciences, the class worked to develop an understanding of Python, the importance of automated workflows, and reproducible science using the Trinity GAM as a case study.  The research file of the MODFLOW model was replaced with a class-constructed recharge file derived from the 30 year mean precipitation in the region.  This repository demonstrates how this can be done using FloPy as the Python interface for MODFLOW as well as data preparation packages in Python (Pandas, Geopandas) and gridded data management (NumPy, GDAL). 
 
 ## Package Installation
 
@@ -66,14 +66,3 @@ To install the above packages, see their given documentations.
 3. Type into command prompt: git remote add upstream [the copied 'clone' URL]
 4. Google what's next sorry
 
-### When you add to a repository that you're a master for:
-
-1. Put all files you want in a folder that will have the same name as the GitHub 
-2. 
-
->>>>>>> 5b68fcf3a7c5baca61dc3e7f4335ab6f9dd39e4d
-	
-# bartonsprings
-# bartonsprings
-# bartonsprings
-# Barton_Springs
